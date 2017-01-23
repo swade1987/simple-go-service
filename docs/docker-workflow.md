@@ -20,6 +20,8 @@ To build the Docker container you will need to edit the "build" task within the 
 
 Tip: The [docker build](https://docs.docker.com/engine/reference/commandline/build/) link is a good place to start.
 
+**The Build task should have two commands, one for Golang and another for Docker**
+
 To verify the build has been successful execute the following commands:
 
 ```
