@@ -21,7 +21,7 @@ Before starting this tutorial you need to have Docker installed.
 
 - Work through the default installation steps.
 
-### Installaion for Windows
+### Installation for Windows
 
 - Browse to [https://docs.docker.com/docker-for-windows/](https://docs.docker.com/docker-for-windows/)
 
@@ -35,6 +35,6 @@ Please note that Docker for Windows requires 64bit Windows 10 Pro or Enterprise 
 
 ## 2. CI/CD with Docker
 
-For more information to be Docker CI/CD tutorial please click [here](docs/docker-workflow.md)
+For more information regarding the Docker CI/CD tutorial please click [here](docs/docker-workflow.md)
 
 ## 3. CI/CD with Kubernetes
