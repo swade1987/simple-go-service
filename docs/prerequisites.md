@@ -26,7 +26,13 @@ Before starting this tutorial you need to have Docker and Golang installed as we
 
 Please note that Docker for Windows requires 64bit Windows 10 Pro or Enterprise Edition as well as Microsoft Hyper-V.
 
-# 2. Docker Hub Account
+# 2. Golang
+
+For installation on Mac please use the following link: [https://golang.org/doc/install#osx](https://golang.org/doc/install#osx)
+
+For installation on Windows please use the following link: [https://golang.org/doc/install#windows](https://golang.org/doc/install#windows)
+
+# 3. Docker Hub Account
 
 In order to complete the Docker CI/CD tutorial you will require an account on Docker Hub.
 
@@ -36,8 +42,3 @@ In order to complete the Docker CI/CD tutorial you will require an account on Do
 
 - Keep a note of the username and password you choose, these will come in handy throughout the tutorial.
 
-# 3. Golang
-
-For installation on Mac please use the following link: [https://golang.org/doc/install#osx](https://golang.org/doc/install#osx)
-
-For installation on Windows please use the following link: [https://golang.org/doc/install#windows](https://golang.org/doc/install#windows)
