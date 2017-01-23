@@ -17,7 +17,9 @@ Before starting this tutorial you need to have Docker installed.
 
 - Click on the "Get Docker for Mac (stable)" button
 
-- Double click on the downloaded file work through the default installation steps.
+- Double click on the downloaded file work.
+
+- Work through the default installation steps.
 
 ### Installaion for Windows
 
@@ -25,10 +27,14 @@ Before starting this tutorial you need to have Docker installed.
 
 - Click on the "Get Docker for Windows (stable)" button
 
-- Double click on the downloaded file work through the default installation steps.
+- Double click on the downloaded file work.
+
+- Work through the default installation steps.
 
 Please note that Docker for Windows requires 64bit Windows 10 Pro or Enterprise Edition as well as Microsoft Hyper-V.
 
 ## 2. CI/CD with Docker
+
+For more information to be Docker CI/CD tutorial please click [here](docs/docker-workflow.md)
 
 ## 3. CI/CD with Kubernetes
