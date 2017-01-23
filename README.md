@@ -17,7 +17,7 @@ Before starting this tutorial you need to have Docker installed.
 
 - Click on the "Get Docker for Mac (stable)" button
 
-- Double click on the downloaded file work.
+- Double click on the downloaded file.
 
 - Work through the default installation steps.
 
@@ -27,7 +27,7 @@ Before starting this tutorial you need to have Docker installed.
 
 - Click on the "Get Docker for Windows (stable)" button
 
-- Double click on the downloaded file work.
+- Double click on the downloaded file.
 
 - Work through the default installation steps.
 
