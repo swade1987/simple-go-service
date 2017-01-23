@@ -37,3 +37,7 @@ In order to complete the Docker CI/CD tutorial you will require an account on Do
 - Keep a note of the username and password you choose, these will come in handy throughout the tutorial.
 
 # 3. Golang
+
+For installation on Mac please use the following link: [https://golang.org/doc/install#osx](https://golang.org/doc/install#osx)
+
+For installation on Windows please use the following link: [https://golang.org/doc/install#windows](https://golang.org/doc/install#windows)
