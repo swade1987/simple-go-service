@@ -37,7 +37,7 @@ To validate this we will use the `docker-compose.yml` in the root directory.
 
 To read more on Docker Compose click [here](https://docs.docker.com/compose/overview/)
 
-Tip: Some key parts of the `docker-compose.yml` are missing and need to be added.
+**Some key parts of the `docker-compose.yml` are missing and need to be added.**
 
 To verify the container is fit for purpose execute the following command from the root directory:
 
