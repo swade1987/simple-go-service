@@ -50,3 +50,15 @@ $ docker-compose up -d
 Now in your browser browse to [http://localhost:5555](http://localhost:5555) you should see `Hello World`.
 
 ## 4. Uploading the container image to Docker Hub
+
+As we have now verified the container is fit for purpose we should upload it to Docker Hub.
+
+Firstly, we need to create a repository on Docker Hub itself for our images.
+
+Browse to [https://hub.docker.com/add/repository/](https://hub.docker.com/add/repository/)
+
+Choose a repository name and remember it, we will be using this very shortly!
+
+Once you have created the repository we need to execute the `docker login` command on our local machines to login to Docker Hub.
+
+For help with the `docker login` command click [here](https://docs.docker.com/engine/reference/commandline/login/)
