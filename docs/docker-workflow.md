@@ -57,8 +57,36 @@ Firstly, we need to create a repository on Docker Hub itself for our images.
 
 Browse to [https://hub.docker.com/add/repository/](https://hub.docker.com/add/repository/)
 
-Choose a repository name and remember it, we will be using this very shortly!
+I would suggest `simple-go-app` as the repository name.
 
 Once you have created the repository we need to execute the `docker login` command on our local machines to login to Docker Hub.
 
 For help with the `docker login` command click [here](https://docs.docker.com/engine/reference/commandline/login/)
+
+## Manual uploading
+
+In order to push a newly created image to Docker Hub will need to perform the following steps:
+
+1. Build a new image with the correct tag using the repo name and a specific version `<username>/simple-go-app:1.0`
+
+2. Push the newly created image upto Docker Hub.
+
+3. Removing the image from your local machine.
+
+If you have successfully pushed the new image to Docker Hub so you should be able to browse to it from your browser.
+
+## Automated uploading
+
+We can go one step further and automate the process of creating and uploading new images.
+
+To make this possible we need to update the `Makefile`
+
+1. Adjust the `IMAGE_NAME` variable.
+
+2. Update the `push` task to replicate the stages you executed during the manual execution.
+
+Note: For this to work you will need to set the `IMAGE_VERSION` environment variable before each execution.
+
+Once you think you have a working task update the `IMAGE_VERSION` to be `1.1` and then execute `make push`
+
+If you are successful you should see v1.1 of the container in your Docker Hub repository.
