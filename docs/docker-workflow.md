@@ -31,7 +31,7 @@ You should see your image listed after executing the second command above.
 
 ## 3. Proving the container is fit for purpose
 
-Now we have created a docker image we need to validate its fit for purpose.
+Now we have created a docker image we need to validate it is fit for purpose.
 
 To validate this we will use the `docker-compose.yml` in the root directory.
 
