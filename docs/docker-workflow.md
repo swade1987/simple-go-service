@@ -31,5 +31,20 @@ You should see your image listed after executing the second command above.
 
 ## 3. Proving the container is fit for purpose
 
+Now we have created a docker image we need to validate its fit for purpose.
+
+To validate this we will use the `docker-compose.yml` in the root directory.
+
+To read more on Docker Compose click [here](https://docs.docker.com/compose/overview/)
+
+Tip: Some key parts of the `docker-compose.yml` are missing and need to be added.
+
+To verify the container is fit for purpose execute the following command from the root directory:
+
+```
+$ docker-compose up -d
+```
+
+Now in your browser browse to [http://localhost:5555](http://localhost:5555) you should see `Hello World`.
 
 ## 4. Uploading the container image to Docker Hub
