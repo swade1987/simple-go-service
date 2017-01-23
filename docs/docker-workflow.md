@@ -4,7 +4,7 @@
 
 You will find located in the route directory two files `Dockerfile` and `.dockerignore`
 
-These files will need to be editted in order to get the application to run inside a Docker container.
+These files will need to be edited in order to get the application to run inside a Docker container.
 
 HINT: Remember we only want to the application binary to be inside the container.
 
@@ -13,3 +13,11 @@ HINT: The `.dockerignore` file should include all files and directories you don'
 For more information please reference [https://docs.docker.com/engine/reference/builder/#/from](https://docs.docker.com/engine/reference/builder/#/from)
 
 The blue navigation menu on the right hand side of the page (for the link above) is very informative.
+
+## 2. Building the Docker container
+
+
+## 3. Proving the container is fit for purpose
+
+
+## 4. Uploading the container image to Docker Hub
