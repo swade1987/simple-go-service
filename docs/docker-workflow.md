@@ -10,7 +10,7 @@ Tip: Remember we only want the application binary to be inside the container.
 
 Tip: The `.dockerignore` file should include all files and directories you don't want inside of the container.
 
-For more information please reference [https://docs.docker.com/engine/reference/builder/#/from](https://docs.docker.com/engine/reference/builder/#/from)
+For more information please reference [https://docs.docker.com/engine/reference/builder/](https://docs.docker.com/engine/reference/builder/)
 
 The blue navigation menu on the right hand side of the page (for the link above) is very informative.
 
