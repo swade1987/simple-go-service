@@ -24,7 +24,9 @@ Before starting this tutorial you need to have Docker and Golang installed as we
 
 - Work through the default installation steps.
 
-Please note that Docker for Windows requires 64bit Windows 10 Pro or Enterprise Edition as well as Microsoft Hyper-V.
+Please note that Docker for Windows requires:
+- 64bit Windows 10 Pro or Enterprise Edition
+- Microsoft Hyper-V.
 
 # 2. Golang
 
