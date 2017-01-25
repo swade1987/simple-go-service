@@ -16,3 +16,5 @@ For the list of prerequisites please click [here](docs/prerequisites.md)
 For more information regarding the Docker CI/CD tutorial please click [here](docs/docker-workflow.md)
 
 ## 3. CI/CD with Kubernetes
+
+For more information regarding the Kubernetes CI/CD tutorial please click [here](docs/kubernetes-workflow.md)
