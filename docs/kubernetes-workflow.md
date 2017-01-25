@@ -16,7 +16,7 @@ Note: It is recommended that you create a bootstrap node and execute KET from th
 
 Within the `kubernetes` directory you find three files: `deployment.yaml` , `ingress.yaml` and `service.yaml`.
 
-These three files will need to be edited in order for you to deploy and verify the application is running successfully on the cluster.
+These three files will need to be edited in order for you to deploy the application onto the Kubernetes cluster.
 
 ### 1. Service.yaml
 
@@ -24,6 +24,7 @@ The steps required to edit the Kubernetes service definition can be found [here]
 
 ### 2. Deployment.yaml
 
+The steps required to edit the Kubernetes deployment definition can be found [here](kubernetes-deployment.md)
 
 ### 3. Ingress.yaml
 
