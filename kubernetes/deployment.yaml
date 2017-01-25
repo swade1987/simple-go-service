@@ -1,0 +1,38 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name:
+  labels:
+    name:
+spec:
+  replicas: 5
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app:
+        version: "0.1.10"
+    spec:
+      containers:
+      - image:  ""
+        name:
+        livenessProbe:
+          httpGet:
+            path: /
+            port:
+          initialDelaySeconds: 30
+          timeoutSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /
+            port:
+          initialDelaySeconds: 30
+          timeoutSeconds: 10
+        ports:
+        - containerPort:
+          name:
+      restartPolicy: Always
