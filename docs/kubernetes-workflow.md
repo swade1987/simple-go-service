@@ -28,6 +28,7 @@ The steps required to edit the Kubernetes deployment definition can be found [he
 
 ### 3. Ingress.yaml
 
+The steps required to edit the Kubernetes ingress definition can be found [here](kubernetes-ingress.md)
 
 ### 4. Execution
 
