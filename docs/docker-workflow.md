@@ -1,4 +1,4 @@
-# Docker CI/CD tutorial
+# Continuous Delivery of Docker Images
 
 ## 1. Dockerfile and .dockerignore
 

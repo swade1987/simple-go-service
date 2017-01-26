@@ -1,4 +1,4 @@
-# Kubernetes CI/CD tutorial
+# Continuous Delivery of our application to a Kubernetes cluster
 
 ## Prerequisites
 

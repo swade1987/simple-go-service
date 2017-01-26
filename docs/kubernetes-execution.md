@@ -1,4 +1,4 @@
-# Deploy our application the cluster
+# Deploying our application to the cluster
 
 Now we have made the necessary changes to our Ingress, Deployment and Service definitions we are ready to deploy our application.
 

@@ -13,10 +13,10 @@ The remainder of this README will describe the steps required to demonstrate und
 
 For the list of prerequisites please click [here](docs/prerequisites.md)
 
-## 2. CI/CD with Docker
+## 2. Continuous Delivery of Docker Images
 
 For more information regarding the Docker portion of this tutorial please click [here](docs/docker-workflow.md)
 
-## 3. CI/CD with Kubernetes
+## 3. Continuous Delivery of our application to a Kubernetes cluster
 
 For more information regarding the Kubernetes portion of this tutorial please click [here](docs/kubernetes-workflow.md)
