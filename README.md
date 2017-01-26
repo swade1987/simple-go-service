@@ -1,6 +1,6 @@
 # Simple Golang Application
 
-The goal of this repository is to mimic the commands and steps required to build a CI/CD pipeline using Docker and Kubernetes.
+The goal of this repository is to mimic building a CI/CD pipeline using Docker and Kubernetes.
 
 The repository is broken down into two portions:
 
