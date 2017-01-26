@@ -1,4 +1,4 @@
-# Continuous Delivery of our application to a Kubernetes cluster
+# Continuous Delivery of our application to Kubernetes
 
 ## Prerequisites
 
