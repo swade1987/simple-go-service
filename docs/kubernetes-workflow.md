@@ -32,3 +32,4 @@ The steps required to edit the Kubernetes ingress definition can be found [here]
 
 ### 4. Execution
 
+The steps to deploy and scale our application can be found [here](kubernetes-execution.md)
