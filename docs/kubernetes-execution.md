@@ -12,6 +12,18 @@ One of the advantages to using Kubernetes is it allows us to scale up the number
 
 So lets scale up our application to have four instances running.
 
-To make this possible you will need to make adjustments to the `deployment.yaml` file and then execute `kubectl apply`.
+To make this possible you will need to make adjustments to the `deployment.yaml` file.
 
-## Upgrading our application
+Then execute something like the command below:
+
+```
+$ kubectl apply ....
+```
+
+## Verfication
+
+So we have deployed and scaled our application, now we need to verify its been successful.
+
+For this we need to locate the hostname you chose to us in your Ingress definition.
+
+Simple browse to http://<hostname> and you should see `Hello World!`.
